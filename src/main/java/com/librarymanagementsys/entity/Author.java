@@ -1,4 +1,4 @@
-package entity;
+package com.librarymanagementsys.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

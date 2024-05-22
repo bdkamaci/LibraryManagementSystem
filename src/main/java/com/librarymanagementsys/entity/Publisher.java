@@ -1,4 +1,4 @@
-package entity;
+package com.librarymanagementsys.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -13,7 +13,7 @@ public class Publisher {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "publisher_id")
-    private Long ID;
+    private Long id;
 
     @Column(name = "publisher_name",nullable = false)
     private String name;
